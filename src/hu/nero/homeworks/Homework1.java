@@ -53,7 +53,8 @@ public class Homework1 {
 								|| (!isWheelWork1 || isWheelWork2 || isWheelWork3 || isWheelWork4)
 								&& hasErrors
 								|| isEngineWork
-				) {
+				)
+				{
 						System.out.println("Машина работает");
 				} else {
 						System.out.println("Машина не работает");
@@ -63,7 +64,7 @@ public class Homework1 {
 		public static void ex3() {
 				//Работа на самостоятельное изучение методов.
 				//Заменить в строке все 'this is' на 'those are', получить индекс (число) второй буквы 'o' в строке
-				//Распечатать полученный индекс
+				//Печать полученного индекса
 				String simply = "this is simply. This is my favorite song.";
 		}
 
