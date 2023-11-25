@@ -72,6 +72,7 @@ public class Homework1 {
 				String modeString1 = simply.replaceAll("this is", "those are");
 				String modeString2 = modeString1.replaceAll("This is", "those are");
 				System.out.println(modeString2);
+
 				int indexSecondO = modeString2.indexOf("o",modeString2.indexOf("o") + 1);
 				System.out.println(indexSecondO);
 		}
