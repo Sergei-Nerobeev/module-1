@@ -45,15 +45,18 @@ public class Homework1 {
 				boolean isWheelWork3 = true;
 				boolean isWheelWork4 = true;
 
-				//Поменять(убрать, поставить) логические операторы так, чтобы машина запускалась:
-				// когда топлива не меньше 10 литров, двигатель работает, колеса все работают, нет ошибок
-				//В ином случае, машина не должна запускаться
-				if (
-						fuel < 10
-								|| (!isWheelWork1 || isWheelWork2 || isWheelWork3 || isWheelWork4)
-								&& hasErrors
-								|| isEngineWork
-				)
+				/*
+				Поменять(убрать, поставить) логические операторы так, чтобы машина запускалась:
+				 когда топлива не меньше 10 литров, двигатель работает, колеса все работают, нет ошибок
+				В ином случае, машина не должна запускаться
+								if (
+										fuel < 10
+												|| (!isWheelWork1 || isWheelWork2 || isWheelWork3 || isWheelWork4)
+												&& hasErrors
+												|| isEngineWork
+								)
+				*/
+				if((fuel >= 10 && isEngineWork) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4) || hasErrors)
 				{
 						System.out.println("Машина работает");
 				} else {
@@ -66,14 +69,19 @@ public class Homework1 {
 				//Заменить в строке все 'this is' на 'those are', получить индекс (число) второй буквы 'o' в строке
 				//Печать полученного индекса
 				String simply = "this is simply. This is my favorite song.";
+				String modeString1 = simply.replaceAll("this is", "those are");
+				String modeString2 = modeString1.replaceAll("This is", "those are");
+				System.out.println(modeString2);
+				int indexSecondO = modeString2.indexOf("o",modeString2.indexOf("o") + 1);
+				System.out.println(indexSecondO);
 		}
 
 		public static void ex4() {
 				//Компания Рога и Копыта производит мясные продукты.
-				//Перечень производимых товаров :
-				//Колбаса - стоимость 800 руб,
+				//Перечень производимых товаров:
+				//Колбаса - стоимость 800 руб.
 				//себестоимость при производстве меньше 1000 кг - 412руб,
-				//себестоимость при производстве от 1000 до 2000 (не включая) - 408 руб
+				//себестоимость при производстве от 1000 до 2000 (не включая) - 408 руб.
 				//себестоимость при производстве от 2000кг - 404 руб
 
 				//Ветчина - стоимость 350 руб
