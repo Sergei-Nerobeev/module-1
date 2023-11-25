@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1">
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex2, ex3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" afterDir="false" />
     </list>
@@ -25,16 +25,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/module1/src&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/workspace/module1/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/workspace/module1/src",
+    "onboarding.tips.debug.path": "D:/workspace/module1/src/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\module1\src" />
@@ -101,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700778246714</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ex2, ex3">
+      <option name="closed" value="true" />
+      <created>1700947240266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700947240266</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add ex2, ex3">
+      <option name="closed" value="true" />
+      <created>1700947309577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700947309577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ex1" />
+    <MESSAGE value="add ex2, ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex2, ex3" />
   </component>
 </project>
