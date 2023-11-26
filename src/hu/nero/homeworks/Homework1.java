@@ -1,5 +1,6 @@
 package hu.nero.homeworks;
 
+
 import java.util.Locale;
 
 public class Homework1 {
@@ -56,7 +57,8 @@ public class Homework1 {
 												|| isEngineWork
 								)
 				*/
-				if((fuel >= 10 && isEngineWork) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4) || hasErrors)
+				if((fuel >= 10 && isEngineWork) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4)
+					|| hasErrors)
 				{
 						System.out.println("Машина работает");
 				} else {
