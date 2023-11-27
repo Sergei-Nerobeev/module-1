@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex2, ex3">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex2, ex3, ex4">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Assembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Ham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Neck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Sausage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,32 +38,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/module1/src&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/workspace/module1/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/workspace/module1/src",
+    "onboarding.tips.debug.path": "D:/workspace/module1/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\module1\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.Homework1" />
       <module name="module1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.nero.homeworks.*" />
+          <option name="PATTERN" value="hu.nero.homeworks.calculator.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.calculator.Runner" />
+      <module name="module1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nero.homeworks.calculator.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Homework1" />
       </list>
     </recent_temporary>
@@ -130,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700950885688</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add ex2, ex3, ex4">
+      <option name="closed" value="true" />
+      <created>1701099335909</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701099335909</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +183,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="add ex1" />
     <MESSAGE value="add ex2, ex3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ex2, ex3" />
+    <MESSAGE value="add ex2, ex3, ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex2, ex3, ex4" />
   </component>
 </project>
