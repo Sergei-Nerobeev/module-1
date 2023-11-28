@@ -51,9 +51,8 @@ public class Homework1 {
 				// когда топлива не меньше 10 литров, двигатель работает, колеса все работают, нет ошибок
 				//В ином случае, машина не должна запускаться
 
-				if((fuel >= 10 && isEngineWork) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4)
-					|| hasErrors)
-				{
+				if ((fuel >= 10 && isEngineWork) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4)
+						|| hasErrors) {
 						System.out.println("Машина работает");
 				} else {
 						System.out.println("Машина не работает");
@@ -70,63 +69,64 @@ public class Homework1 {
 				String modeString2 = modeString1.replaceAll("This is", "those are");
 				System.out.println(modeString2);
 
-				int indexSecondO = modeString2.indexOf("o",modeString2.indexOf("o") + 1);
+				int indexSecondO = modeString2.indexOf("o", modeString2.indexOf("o") + 1);
 				System.out.println(indexSecondO);
 		}
 
 		public static void ex4() {
-			
-			int sausageQty = 2000;
-			int hamQty = 8511;
-			int neckQty = 6988;
-			double resultProfit = calculateProfitAfterTax(sausageQty, hamQty, neckQty);
-			System.out.println("Прибыль после налогов: " + resultProfit + " руб.");
+
+				int sausageQty = 2000;
+				int hamQty = 8511;
+				int neckQty = 6988;
+				double resultProfit = calculateProfitAfterTax(sausageQty, hamQty, neckQty);
+				System.out.println("Прибыль после налогов: " + resultProfit + " руб.");
 		}
+
 		static class ProfitCalculator {
-			private static int sausagePrice = 800;
-			private static int sausageCost1 = 412;
-			private static int sausageCost2 = 408;
-			private static int sausageCost3 = 404;
+				private static int sausagePrice = 800;
+				private static int sausageCost1 = 412;
+				private static int sausageCost2 = 408;
+				private static int sausageCost3 = 404;
 
-			private static int hamPrice = 350;
-			private static int hamCost = 275;
+				private static int hamPrice = 350;
+				private static int hamCost = 275;
 
-			private static int neckPrice = 500;
-			private static int neckCost1 = 311;
-			private static int neckCost2 = 299;
+				private static int neckPrice = 500;
+				private static int neckCost1 = 311;
+				private static int neckCost2 = 299;
 
-			public static double calculateProfitAfterTax(int sausageQty, int hamQty, int neckQty) {
+				public static double calculateProfitAfterTax(int sausageQty, int hamQty, int neckQty) {
 
 
-					int totalIncome = (sausageQty * sausagePrice) + (hamQty * hamPrice) + (neckQty * neckPrice);
-					int totalExpense = (
-							(sausageQty * (sausageQty < 1000 ? sausageCost1 : (sausageQty < 2000 ? sausageCost2 : sausageCost3))) +
-									(hamQty * hamCost) +
-									(neckQty * (neckQty < 500 ? neckCost1 : neckCost2)) +
-									1000000
-					);
+						int totalIncome = (sausageQty * sausagePrice) + (hamQty * hamPrice) + (neckQty * neckPrice);
+						int totalExpense = (
+								(sausageQty * (sausageQty < 1000 ? sausageCost1 : (sausageQty < 2000 ? sausageCost2 : sausageCost3))) +
+										(hamQty * hamCost) +
+										(neckQty * (neckQty < 500 ? neckCost1 : neckCost2)) +
+										1000000
+						);
 
-					int profitBeforeTax = totalIncome - totalExpense;
-					double taxRate1 = 0.08;
-					double taxRate2 = 0.1;
-					double taxRate3 = 0.13;
-					double tax = 0;
+						int profitBeforeTax = totalIncome - totalExpense;
+						double taxRate1 = 0.08;
+						double taxRate2 = 0.1;
+						double taxRate3 = 0.13;
+						double tax = 0;
 
-					if (profitBeforeTax > 2000000) {
-						tax = 2000000 * taxRate1 + (profitBeforeTax - 2000000) * taxRate2;
-					} else if (profitBeforeTax > 1000000) {
-						tax = profitBeforeTax * taxRate2;
-					} else {
-						tax = profitBeforeTax * taxRate1;
-					}
+						if (profitBeforeTax > 2000000) {
+								tax = 2000000 * taxRate1 + (profitBeforeTax - 2000000) * taxRate2;
+						} else if (profitBeforeTax > 1000000) {
+								tax = profitBeforeTax * taxRate2;
+						} else {
+								tax = profitBeforeTax * taxRate1;
+						}
 
-					int totalTax = (int) Math.round(tax);
-					double profitAfterTax = profitBeforeTax - totalTax;
+						int totalTax = (int) Math.round(tax);
+						double profitAfterTax = profitBeforeTax - totalTax;
 
-					return profitAfterTax;
+						return profitAfterTax;
 				}
 
-			}
-
 		}
+
+}
 
