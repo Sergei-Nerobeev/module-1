@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="EX4">
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Assembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Constructor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" afterDir="false" />
     </list>
