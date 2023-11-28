@@ -1,10 +1,11 @@
 package hu.nero.homeworks.calculator;
 
 public abstract class Product {
-  protected final String title;
-	protected final int price;
-	protected final int cost;
-	protected final int quantity;
+  protected String title;
+	protected int price;
+	protected int cost;
+	protected int quantity;
+	protected int result;
 
 	public Product(String title, int price, int cost, int quantity) {
 		this.title = title;
@@ -31,12 +32,32 @@ public abstract class Product {
 	public void profitBeforeTax(){
 		int profit = totalCalculateProfit();
 		int expense = totalCalculateExpense();
-		int result = (profit - expense);
+		int netProfit = (profit - expense);
 		System.out.println("Прибыль по " + this.title + " равна: " + result);
+	}
+
+	public void profitAfterTax(){
+		int taxRate;
+		int taxTotal;
+		int profit = totalCalculateProfit();
+		int expense = totalCalculateExpense();
+		int netProfit = (profit - expense);
+
+		if(netProfit > 1_000_000) {
+				taxRate = 13;
+				taxTotal = netProfit * taxRate / 100;
+				System.out.println("Налог: " + taxTotal);
+
+		}
+		}
+
+
+
+
 	}
 
 
 
 
 
-}
+
