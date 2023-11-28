@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex2, ex3, ex4">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Assembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Ham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Neck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Sausage.java" afterDir="false" />
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="EX4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701099335909</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="EX4">
+      <option name="closed" value="true" />
+      <created>1701109370199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701109370199</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +185,7 @@
     <MESSAGE value="add ex1" />
     <MESSAGE value="add ex2, ex3" />
     <MESSAGE value="add ex2, ex3, ex4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ex2, ex3, ex4" />
+    <MESSAGE value="EX4" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX4" />
   </component>
 </project>
