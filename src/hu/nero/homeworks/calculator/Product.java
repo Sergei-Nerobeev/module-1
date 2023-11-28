@@ -15,31 +15,50 @@ public abstract class Product {
 	}
 
 	// расчет себестоимости
-	public void getCost(String title, int quantity) {
+	public int getCost(String title, int quantity) {
 		int costRate = 412;
 		int expense = 0;
-		if(title.contains("Sausage") && quantity < 2000){
+		if (title.contains("Sausage") && quantity < 2000) {
 			expense = costRate * quantity;
-			System.out.println("Количество " + title +  " > 1000, себестоимость равна: " + costRate + " Расход равен: " + expense);
+			System.out.println("Количество " + title + " > 1000 кг. Cебестоимость равна: " + costRate + " Расход равен: " + expense);
 
-		} else if(title.contains("sausage") && quantity > 1000 && quantity < 2000){
-			System.out.println("Себестоимость > 1000 и < 2000");
+		} else if (title.contains("Sausage") && quantity > 1000 && quantity <= 2000) {
+			expense = (costRate - 4) * quantity;
+			System.out.println("Количество " + title + " > 1000 кг. и < 2000 кг. Cебестоимость равна: " + (costRate - 4) + " Расход равен: " + expense);
+
+		} else if (title.contains("Sausage") && quantity > 2000) {
+			expense = (costRate - 8) * quantity;
+			System.out.println("Количество " + title + " >  2000 кг. Cебестоимость равна: " + (costRate - 8) + " Расход равен: " + expense);
+
+		} else if (title.contains("Ham")) {
+			expense = (costRate - 137) * quantity;
+			System.out.println("Количество " + title + "." + " Себестоимость равна: " + (costRate - 137) + " Расход равен: " + expense);
+
+		} else if (title.contains("Neck") && quantity < 500) {
+			expense = (costRate - 101) * quantity;
+			System.out.println("Количество " + title + " < 500 кг. Cебестоимость равна: " + (costRate - 101) + " Расход равен: " + expense);
+
+		} else if (title.contains("Neck") && quantity >= 500) {
+			expense = (costRate - 113) * quantity;
+			System.out.println("Количество " + title + " >= 500 кг. Cебестоимость равна: " + (costRate - 101) + " Расход равен: " + expense);
 		}
 
-	}
+			return expense;
+		}
+
 
 	// расчет чистого дохода
 	public int totalCalculateProfit(){
-		int result = this.price * this.quantity;
-		System.out.println("Доход по " + this.title + " равен: " + result);
-		return result;
+		int profit = this.price * this.quantity;
+		System.out.println("Доход по " + this.title + " равен: " + profit);
+		return profit;
 	}
 
 	// расчет расхода
 	public int totalCalculateExpense(){
-		int result = this.cost * this.quantity;       // 1_000_000 прибавляется к сумме всех издержек
-		System.out.println("Расход по " + this.title + " равен: " + result);
-		return result;
+		int expense = this.cost * this.quantity;       // 1_000_000 прибавляется к сумме всех издержек
+		System.out.println("Расход по " + this.title + " равен: " + expense);
+		return expense;
 	}
 
 	// расчет прибыли до вычета налогов
