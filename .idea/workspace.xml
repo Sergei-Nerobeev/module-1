@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add new getCost">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/service/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/service/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Ham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Ham.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Neck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Neck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Sausage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/dz4/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calulator2/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/dz4/ProfitCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calulator2/ProfitCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="new version ex4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701186539561</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new version ex4">
+      <option name="closed" value="true" />
+      <created>1701271404720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701271404720</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +215,7 @@
     <MESSAGE value="add ex2, ex3, ex4" />
     <MESSAGE value="EX4" />
     <MESSAGE value="add new getCost" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new getCost" />
+    <MESSAGE value="new version ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version ex4" />
   </component>
 </project>
