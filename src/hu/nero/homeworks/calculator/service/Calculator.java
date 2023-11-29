@@ -1,4 +1,4 @@
-package hu.nero.homeworks.calculator;
+package hu.nero.homeworks.calculator.service;
 
 
 import hu.nero.homeworks.calculator.entity.Ham;

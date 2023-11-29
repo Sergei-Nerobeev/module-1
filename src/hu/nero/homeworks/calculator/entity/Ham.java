@@ -1,6 +1,6 @@
 package hu.nero.homeworks.calculator.entity;
 
-import hu.nero.homeworks.calculator.Product;
+import hu.nero.homeworks.calculator.service.Product;
 
 public class Ham extends Product {
 

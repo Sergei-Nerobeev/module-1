@@ -1,4 +1,4 @@
-package hu.nero.homeworks.dz4;
+package hu.nero.homeworks.calulator2;
 
 public class ProfitCalculator {
 
@@ -12,9 +12,11 @@ public class ProfitCalculator {
 				int hamWeight = 8511;
 				int neckWeight = 6988;
 
-				double totalRevenue = sausage.calculateRevenue(sausageWeight) + ham.calculateRevenue(hamWeight) + neck.calculateRevenue(neckWeight);
+				double totalRevenue = sausage.calculateRevenue(sausageWeight) + ham.calculateRevenue(hamWeight) +
+						neck.calculateRevenue(neckWeight);
 
-				double totalCost = sausage.calculateCost(sausageWeight) + ham.calculateCost(hamWeight) + neck.calculateCost(neckWeight) + 1_000_000;
+				double totalCost = sausage.calculateCost(sausageWeight) + ham.calculateCost(hamWeight) +
+						neck.calculateCost(neckWeight) + 1_000_000;
 
 				double profitBeforeTax = totalRevenue - totalCost;
 

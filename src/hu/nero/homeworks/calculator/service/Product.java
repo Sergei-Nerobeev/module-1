@@ -1,4 +1,4 @@
-package hu.nero.homeworks.calculator;
+package hu.nero.homeworks.calculator.service;
 
 public abstract class Product {
   protected String title;

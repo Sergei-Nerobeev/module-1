@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add new getCost">
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/dz4/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/dz4/ProfitCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/service/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/service/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Ham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Ham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Neck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Neck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calculator/entity/Sausage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/dz4/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calulator2/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/dz4/ProfitCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/calulator2/ProfitCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
       <recent name="D:\workspace\module1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProfitCalculator">
+  <component name="RunManager" selected="Application.Homework1">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.Homework1" />
       <module name="module1" />
@@ -69,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="ProfitCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.dz4.ProfitCalculator" />
+      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.calulator2.ProfitCalculator" />
       <module name="module1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.nero.homeworks.dz4.*" />
+          <option name="PATTERN" value="hu.nero.homeworks.calulator2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework1" />
         <item itemvalue="Application.ProfitCalculator" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Homework1" />
       </list>
     </recent_temporary>
   </component>

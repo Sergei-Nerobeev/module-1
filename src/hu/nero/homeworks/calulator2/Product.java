@@ -1,4 +1,4 @@
-package hu.nero.homeworks.dz4;
+package hu.nero.homeworks.calulator2;
 
 public class Product {
 
