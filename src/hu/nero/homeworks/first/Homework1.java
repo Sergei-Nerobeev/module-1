@@ -1,6 +1,6 @@
-package hu.nero.homeworks;
+package hu.nero.homeworks.first;
 
-import static hu.nero.homeworks.Homework1.ProfitCalculator.calculateProfitAfterTax;
+import static hu.nero.homeworks.first.Homework1.ProfitCalculator.calculateProfitAfterTax;
 
 public class Homework1 {
 	public static void main(String[] args) {
