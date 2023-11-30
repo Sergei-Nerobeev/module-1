@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="new version ex4" />
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="finish ex4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701271404720</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finish ex4">
+      <option name="closed" value="true" />
+      <created>1701282276674</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701282276674</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +224,7 @@
     <MESSAGE value="EX4" />
     <MESSAGE value="add new getCost" />
     <MESSAGE value="new version ex4" />
-    <option name="LAST_COMMIT_MESSAGE" value="new version ex4" />
+    <MESSAGE value="finish ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish ex4" />
   </component>
 </project>

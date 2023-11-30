@@ -11,15 +11,12 @@ public class Homework1 {
 	}
 
 	public static void ex1() {
-
-		String name = "     ПЕтРов Олег Иванович     ";
-
+		String name = "     ПЕтРова Олег Иванович     ";
 		System.out.println(name.trim());
-
 		System.out.println(name.toUpperCase().trim());
 
 		if (name.contains("ова ")) {
-			System.out.println("Уважаемая " + name);
+			System.out.println("Уважаемая " + name.toUpperCase().trim());
 
 		} else if (name.contains("ов ")) {
 			System.out.println("Уважаемый " + name.toUpperCase().trim());
@@ -30,7 +27,6 @@ public class Homework1 {
 	}
 
 	public static void ex2() {
-
 		double fuel = 10;
 		boolean isEngineWork = true;
 		boolean hasErrors = false;
@@ -39,8 +35,8 @@ public class Homework1 {
 		boolean isWheelWork3 = true;
 		boolean isWheelWork4 = true;
 
-		if ((fuel >= 10 && isEngineWork) && (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4)
-				|| hasErrors) {
+		if (fuel >= 10 && isEngineWork || (isWheelWork1 && isWheelWork2 && isWheelWork3 && isWheelWork4)
+				&& hasErrors) {
 			System.out.println("Машина работает");
 		} else {
 			System.out.println("Машина не работает");
@@ -48,13 +44,9 @@ public class Homework1 {
 	}
 
 	public static void ex3() {
-
 		String simply = "this is simply. This is my favorite song.";
-
 		String modeString1 = simply.replaceAll("this is", "those are");
 		String modeString2 = modeString1.replaceAll("This is", "those are");
-		System.out.println(modeString2);
-
 		int indexSecondO = modeString2.indexOf("o", modeString2.indexOf("o") + 1);
 		System.out.println(indexSecondO);
 	}
