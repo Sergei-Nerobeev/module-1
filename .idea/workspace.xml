@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="correct and finish ex4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="correct ex4">
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701439157523</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correct ex4">
+      <option name="closed" value="true" />
+      <created>1701448213598</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701448213598</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +258,8 @@
     <MESSAGE value="EX4" />
     <MESSAGE value="add new getCost" />
     <MESSAGE value="correct and finish ex4" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct and finish ex4" />
+    <MESSAGE value="correct ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct ex4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

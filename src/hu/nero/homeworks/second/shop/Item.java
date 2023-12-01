@@ -10,7 +10,6 @@ public class Item {
 				this.title = title;
 
 		}
-
 		@Override
 		public String toString() {
 				return " "
