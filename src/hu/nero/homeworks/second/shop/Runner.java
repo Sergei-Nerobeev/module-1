@@ -1,5 +1,7 @@
 package hu.nero.homeworks.second.shop;
 
+import java.util.Arrays;
+
 public class Runner {
 		public static void main(String[] args) {
 
@@ -11,21 +13,15 @@ public class Runner {
 				itemsOfWoman [0] = new Item(30,"Тетрадка");
 				itemsOfWoman [1] = new Item(10,"Ручка");
 
-				Worker worker1 = new Worker("Василий",30,"Мужчина",itemsOfMan);
-				Worker worker2 = new Worker("Марьяна",25,"Женщина",itemsOfWoman);
+				Worker worker1 = new Worker("Василий",30,"Мужчина");
+				Worker worker2 = new Worker("Марьяна",25,"Женщина");
 
-				Worker [] workers = new Worker[2];
-				workers [0] = worker1;
-				workers [1] = worker2;
-				for(Worker el : workers) {
-
-				}
-
-				Shop shop = new Shop(workers);
-				shop.getPrintWorkers(workers);
+				Shop shop = new Shop();
+				shop.getPrintWorkers();
 
 				worker1.shoutAboutItem(itemsOfMan);
 				worker2.shoutAboutItem(itemsOfWoman);
+//				worker2.shoutAboutItem(itemsOfWoman);
 
 
 		}

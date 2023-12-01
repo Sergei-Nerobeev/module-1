@@ -4,14 +4,16 @@ import java.util.Arrays;
 
 public class Shop {
 
-		private Worker [] worker;
+		private Worker [] workers;
 
-		public Shop(Worker [] worker) {
-				this.worker = new Worker[2];
+		public Shop() {
+				this.workers = new Worker[2];
+		    this.workers [0] = new Worker("Василий", 30, "Мужчина");
+				this.workers [1] = new Worker ("Марьяна", 25, "Женщина");
 		}
 
-		public void getPrintWorkers(Worker [] worker) {
-				System.out.println(Arrays.toString(worker));
+		public void getPrintWorkers() {
+				System.out.println(Arrays.toString(workers));
 
 
 		}

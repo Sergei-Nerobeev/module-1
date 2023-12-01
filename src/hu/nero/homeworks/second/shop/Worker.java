@@ -8,11 +8,10 @@ public class Worker {
 		private String gender;
 		private Item [] items;
 
-		public Worker(String name, int age, String gender, Item[] items) {
+		public Worker(String name, int age, String gender) {
 				this.name = name;
 				this.age = age;
 				this.gender = gender;
-				this.items = items;
 		}
 
 		@Override
@@ -20,15 +19,14 @@ public class Worker {
 				return "{" +
 						"name='" + name + '\'' +
 						", age=" + age +
-						", gender='" + gender + '\'' +
-						", items=" + Arrays.toString(items) +
-						'}';
+						", gender='" + gender + '\'' + '}';
+
 		}
 
 		public void shoutAboutItem(Item [] items) {
-				for (Item item : items) {
-						System.out.println(this.name + " : " + " смотрите какая у меня вещь " + Arrays.toString(items));
-				}
+//				for (Item item : items) {
+				System.out.println(this.name + " :" + " смотрите какая у меня вещь " + Arrays.toString(items));
+//				}
 
 		}
 
