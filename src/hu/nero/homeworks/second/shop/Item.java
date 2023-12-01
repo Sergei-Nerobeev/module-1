@@ -2,8 +2,8 @@ package hu.nero.homeworks.second.shop;
 
 public class Item {
 
-		private int wight;
-		private String title;
+		private final int wight;
+		private final String title;
 
 		public Item(int wight, String title) {
 				this.wight = wight;
