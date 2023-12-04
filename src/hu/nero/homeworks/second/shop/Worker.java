@@ -3,9 +3,9 @@ package hu.nero.homeworks.second.shop;
 import java.util.Arrays;
 
 public class Worker {
-		private String name;
-		private int age;
-		private String gender;
+		private final String name;
+		private final int age;
+		private final String gender;
 		private Item [] items;
 
 		public Worker(String name, int age, String gender) {

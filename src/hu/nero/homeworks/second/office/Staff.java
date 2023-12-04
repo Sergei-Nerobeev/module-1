@@ -13,34 +13,17 @@ public class Staff {
 				this.guard = guard;
 		}
 
-		public void performBoss() {
-				if(boss != null) {
+		public void staffPerform() {
+				if(boss != null && manager != null && secretary != null && guard != null ) {
 						System.out.println(boss + ":" + manager + "быстрее!");
-				} else {
-						System.out.println("Error!");
-				}
-		}
-		public void performManager() {
-				if(manager != null) {
 						System.out.println(manager + ":" + " я ничего не успеваю, помогите!");
-				} else {
-						System.out.println("Error!");
-				}
-		}
-		public void performSecretary() {
-				if(secretary != null) {
 						System.out.println(boss + "не волнуйтесь," + manager + "все успеет." + guard + "- подождите!");
-				} else {
-						System.out.println("Error!");
-				}
-		}
-		public void performGuard() {
-				if(secretary != null) {
 						System.out.println(guard + ":" + " Дайте аванс!");
 				} else {
 						System.out.println("Error!");
 				}
 		}
+
 
 
 }

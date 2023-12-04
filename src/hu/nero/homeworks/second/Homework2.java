@@ -6,10 +6,8 @@ public class Homework2 {
     public static void main(String[] args) {
 		    ex1();
 				ex2();
-
-
+				ex3();
     }
-
     public static void ex1() {
         int[][] arrayOfNumbers = new int[10][10];
         arrayOfNumbers[0] = new int[]{131, 2, 3, 4, 5, 6, 7, 8, 9, 102};
@@ -35,7 +33,6 @@ public class Homework2 {
 		    }
 		    System.out.println("Сумма по диагонали слева внизу направо вверх: " + leftDownToRightUpSum);
     }
-
     public static void ex2() {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 		    for (int i = 0, j = numbers.length - 1; i < j; i++, j--) {
@@ -50,14 +47,16 @@ public class Homework2 {
     }
 
     public static void ex3() {
-        //Дан распределитель случайных чисел
-        Random random = new Random(1);
-        //Получение случайного числа
-        int number = random.nextInt(1000);
-
-        //Написать код, генерирующий случайные числа до тех пор, пока не сгенерируется 999.
-        //Вывести номер попытки, с которой получилось получить случайным образом число 999.
+		   	Random random = new Random(1);
+		    int attempts = 0;
+		    int number = random.nextInt(1000);
+		    while (number != 999) {
+				    number = random.nextInt(1000);
+				    attempts++;
+		    }
+		    System.out.println("Число 999 сгенерировано с " + attempts + " попытки.");
     }
+
 
     public static void ex4() {
         //Создать пакет shop. Внутри пакета:
@@ -76,7 +75,6 @@ public class Homework2 {
         //Создать магазин с работниками выше.
         //Вызвать у магазина печать.
         //Вызвать у каждого работника магазина хвастовство его вещами (достать работника из магазина).
-
     }
 
     public static void ex5() {

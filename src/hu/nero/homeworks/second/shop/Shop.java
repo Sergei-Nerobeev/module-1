@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Shop {
 
-		private Worker [] workers;
+		private final Worker [] workers;
 
 		public Shop() {
 				this.workers = new Worker[2];

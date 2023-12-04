@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="correct! ex4.1, finished ex5">
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1, ex2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
       <recent name="hu.nero.homeworks.second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework2">
+  <component name="RunManager" selected="Application.hu.nero.homeworks.second.shop.Runner">
     <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.second.Homework2" />
       <module name="module1" />
@@ -123,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.nero.homeworks.second.shop.Runner" />
         <item itemvalue="Application.Homework2" />
         <item itemvalue="Application.hu.nero.homeworks.second.office.Runner" />
-        <item itemvalue="Application.hu.nero.homeworks.second.shop.Runner" />
         <item itemvalue="Application.ProfitCalculator" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -252,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701453263681</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add ex1, ex2">
+      <option name="closed" value="true" />
+      <created>1701705787752</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701705787752</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,71 +290,7 @@
     <MESSAGE value="correct ex4" />
     <MESSAGE value="correct ex4.1" />
     <MESSAGE value="correct! ex4.1, finished ex5" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct! ex4.1, finished ex5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java</url>
-          <line>11</line>
-          <properties class="hu.nero.homeworks.second.Homework2" method="ex1">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add ex1, ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex1, ex2" />
   </component>
 </project>

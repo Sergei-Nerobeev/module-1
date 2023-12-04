@@ -6,11 +6,7 @@ public class Office {
 		public void workDay(){
 				Staff staff = new Staff(new Boss("Петр Николаевич"),new Manager("Володя"),new Secretary(),
 						new Guard("Петрович"));
-
-				staff.performBoss();
-				staff.performManager();
-				staff.performSecretary();
-				staff.performGuard();
+				staff.staffPerform();
 
 		}
 
