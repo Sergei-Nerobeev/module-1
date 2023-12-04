@@ -14,6 +14,13 @@ public class Worker {
 				this.gender = gender;
 		}
 
+		public Worker(String name, int age, String gender, Item[] items) {
+				this.name = name;
+				this.age = age;
+				this.gender = gender;
+				this.items = items;
+		}
+
 		@Override
 		public String toString() {
 				return "{" +
