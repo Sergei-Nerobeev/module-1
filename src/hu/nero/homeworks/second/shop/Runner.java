@@ -7,11 +7,11 @@ public class Runner {
 				Item notebook = new Item(30,"Тетрадка");
 				Item pen = new Item(10,"Ручка");
 
-				Worker worker1 = new Worker("Василий",30,"Мужчина");
-				Worker worker2 = new Worker("Марьяна",25,"Женщина");
+				Worker workerMale = new Worker("Василий",30,"Мужчина");
+				Worker workerFemale = new Worker("Марьяна",25,"Женщина");
 
 				Shop shop = new Shop();
-				shop.getPrintWorkers();
+				shop.printWorkers();
 
 				Item [] itemsOfMan = new Item[2];
 				itemsOfMan [0] = hammer;
@@ -20,8 +20,8 @@ public class Runner {
 				itemsOfWoman [0] = notebook;
 				itemsOfWoman [1] = pen;
 
-				worker1.shoutAboutItem(itemsOfMan);
-				worker2.shoutAboutItem(itemsOfWoman);
+				workerMale.shoutAboutItems(itemsOfMan);
+				workerFemale.shoutAboutItems(itemsOfWoman);
 
 
 

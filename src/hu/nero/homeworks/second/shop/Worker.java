@@ -23,11 +23,8 @@ public class Worker {
 
 		}
 
-		public void shoutAboutItem(Item [] items) {
-//				for (Item item : items) {
-				System.out.println(this.name + " :" + " смотрите какая у меня вещь " + Arrays.toString(items));
-//				}
-
+		public void shoutAboutItems(Item [] items) {
+				System.out.println(this.name + " :" + " смотрите какая у меня вещь - " + Arrays.toString(items));
 		}
 
 

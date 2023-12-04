@@ -1,8 +1,8 @@
 package hu.nero.homeworks.second.shop;
 
 public class Item {
-		private int wight;
-		private String title;
+		private final int wight;
+		private final String title;
 		private Item [] items;
 
 		public Item(int wight, String title) {
@@ -12,8 +12,7 @@ public class Item {
 		}
 		@Override
 		public String toString() {
-				return " "
-						 + title + ' ';
+				return title;
 
 		}
 }

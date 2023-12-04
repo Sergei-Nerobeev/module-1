@@ -12,7 +12,7 @@ public class Shop {
 				this.workers [1] = new Worker ("Марьяна", 25, "Женщина");
 		}
 
-		public void getPrintWorkers() {
+		public void printWorkers() {
 				System.out.println(Arrays.toString(workers));
 
 
