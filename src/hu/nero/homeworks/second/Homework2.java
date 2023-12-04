@@ -4,12 +4,13 @@ import java.util.Random;
 
 public class Homework2 {
     public static void main(String[] args) {
+		    ex1();
 				ex2();
+
 
     }
 
     public static void ex1() {
-        //Дан массив с массивом чисел внутри
         int[][] arrayOfNumbers = new int[10][10];
         arrayOfNumbers[0] = new int[]{131, 2, 3, 4, 5, 6, 7, 8, 9, 102};
         arrayOfNumbers[1] = new int[]{1, 20, 3, 4, 5, 6, 7, 8, 93, 10};
@@ -22,28 +23,26 @@ public class Homework2 {
         arrayOfNumbers[8] = new int[]{1, 20, 3, 4, 5, 6, 7, 8, 901, 10};
         arrayOfNumbers[9] = new int[]{10, 2, 3, 4, 5, 6, 7, 8, 9, 101};
 
-        //Посчитать сумму каждой диагонали используя цикл(ы)
-        //Вывесим на экран
+		    int leftUpToRightDownSum = 0;
+		    for (int i = 0; i < arrayOfNumbers.length; i++) {
+				    leftUpToRightDownSum += arrayOfNumbers[i][i];
+		    }
+		    System.out.println("Сумма по диагонали слева сверху направо вниз: " + leftUpToRightDownSum);
 
-        //С левого верхнего угла к нижнему правому
-        int leftUpToRightDownSum = 0;
-        //С левого нижнего угла к верхнему правому
-        int leftDownToRightUpSum = 0;
+		    int leftDownToRightUpSum = 0;
+		    for (int i = 0; i < arrayOfNumbers.length; i++) {
+				    leftDownToRightUpSum += arrayOfNumbers[i][arrayOfNumbers.length - 1 - i];
+		    }
+		    System.out.println("Сумма по диагонали слева внизу направо вверх: " + leftDownToRightUpSum);
     }
 
     public static void ex2() {
-        //Перевернуть массив(без сторонних классов), не создавая новый массив. Вывести на экран.
-        //"перевернуть" - значит последние элементы становятся первыми и наоборот.
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-
-		    // Переворачиваем массив в обратном порядке
 		    for (int i = 0, j = numbers.length - 1; i < j; i++, j--) {
 				    int temp = numbers[i];
 				    numbers[i] = numbers[j];
 				    numbers[j] = temp;
 		    }
-
-		    // Выводим результат
 		    System.out.print("Массив в обратном порядке: ");
 		    for (int number : numbers) {
 				    System.out.print(number + " ");
