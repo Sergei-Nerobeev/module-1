@@ -8,11 +8,10 @@ public class Item {
 		public Item(int wight, String title) {
 				this.wight = wight;
 				this.title = title;
-
 		}
+
 		@Override
 		public String toString() {
 				return title;
-
 		}
 }

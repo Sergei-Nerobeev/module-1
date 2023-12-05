@@ -25,13 +25,13 @@ public class Homework2 {
 		    for (int i = 0; i < arrayOfNumbers.length; i++) {
 				    leftUpToRightDownSum += arrayOfNumbers[i][i];
 		    }
-		    System.out.println("Сумма по диагонали слева сверху направо вниз: " + leftUpToRightDownSum);
+		    System.out.println("Сумма по диагонали слева: " + leftUpToRightDownSum);
 
 		    int leftDownToRightUpSum = 0;
 		    for (int i = 0; i < arrayOfNumbers.length; i++) {
 				    leftDownToRightUpSum += arrayOfNumbers[i][arrayOfNumbers.length - 1 - i];
 		    }
-		    System.out.println("Сумма по диагонали слева внизу направо вверх: " + leftDownToRightUpSum);
+		    System.out.println("Сумма по диагонали справа: " + leftDownToRightUpSum);
     }
     public static void ex2() {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};

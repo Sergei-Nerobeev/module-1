@@ -6,19 +6,12 @@ public class Worker {
 		private final String name;
 		private final int age;
 		private final String gender;
-		private Item [] items;
+
 
 		public Worker(String name, int age, String gender) {
 				this.name = name;
 				this.age = age;
 				this.gender = gender;
-		}
-
-		public Worker(String name, int age, String gender, Item[] items) {
-				this.name = name;
-				this.age = age;
-				this.gender = gender;
-				this.items = items;
 		}
 
 		@Override
@@ -27,7 +20,6 @@ public class Worker {
 						"name='" + name + '\'' +
 						", age=" + age +
 						", gender='" + gender + '\'' + '}';
-
 		}
 
 		public void shoutAboutItems(Item [] items) {

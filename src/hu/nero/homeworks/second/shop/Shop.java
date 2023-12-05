@@ -3,7 +3,6 @@ package hu.nero.homeworks.second.shop;
 import java.util.Arrays;
 
 public class Shop {
-
 		private final Worker [] workers;
 
 		public Shop() {
@@ -12,7 +11,7 @@ public class Shop {
 				this.workers [1] = new Worker ("Марьяна", 25, "Женщина");
 		}
 
-		public void printWorkers() {
+		public void printListOfWorkers() {
 				System.out.println(Arrays.toString(workers));
 
 

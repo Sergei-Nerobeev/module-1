@@ -11,7 +11,7 @@ public class Runner {
 				Worker workerFemale = new Worker("Марьяна",25,"Женщина");
 
 				Shop shop = new Shop();
-				shop.printWorkers();
+				shop.printListOfWorkers();
 
 				Item [] itemsOfMan = new Item[2];
 				itemsOfMan [0] = hammer;
