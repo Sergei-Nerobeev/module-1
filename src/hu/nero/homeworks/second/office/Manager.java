@@ -6,6 +6,7 @@ public class Manager {
 		public Manager(String name) {
 				this.name = name;
 		}
+
 		@Override
 		public String toString() {
 				return name;
