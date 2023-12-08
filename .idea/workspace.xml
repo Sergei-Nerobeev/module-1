@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="to send">
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/Homework3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/Three.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/hardwood/Birch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/hardwood/Hardwood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Pine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Softwood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Spruce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Os.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Smartphone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +35,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Runner.executor": "Run",
-    "Application.hu.nero.homeworks.second.office.Runner.executor": "Run",
-    "Application.hu.nero.homeworks.third.ex1.Runner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,7 +58,7 @@
       <recent name="hu.nero.homeworks.second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.hu.nero.homeworks.second.office.Runner">
     <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.second.Homework2" />
       <module name="module1" />
@@ -89,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.third.ex2.Runner" />
+    <configuration name="ProfitCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.dz4.ProfitCalculator" />
       <module name="module1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.nero.homeworks.third.ex2.*" />
+          <option name="PATTERN" value="hu.nero.homeworks.dz4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.calculator.Runner" />
+      <module name="module1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nero.homeworks.calculator.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hu.nero.homeworks.third.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.third.ex1.Runner" />
-      <module name="module1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.nero.homeworks.third.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.hu.nero.homeworks.third.ex1.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.second.office.Runner" />
         <item itemvalue="Application.Homework2" />
         <item itemvalue="Application.hu.nero.homeworks.second.shop.Runner" />
+        <item itemvalue="Application.ProfitCalculator" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -279,15 +262,7 @@
       <option name="project" value="LOCAL" />
       <updated>1701788072182</updated>
     </task>
-    <task id="LOCAL-00015" summary="to send">
-      <option name="closed" value="true" />
-      <created>1701874852003</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1701874852003</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
