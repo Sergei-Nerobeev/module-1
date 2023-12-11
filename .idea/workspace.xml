@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1 ex2">
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Runner.java" afterDir="false" />
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1 ex2 ex3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702060810916</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add ex1 ex2 ex3">
+      <option name="closed" value="true" />
+      <created>1702305579483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702305579484</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +310,7 @@
     <MESSAGE value="to send" />
     <MESSAGE value="add ex2" />
     <MESSAGE value="add ex1 ex2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ex1 ex2" />
+    <MESSAGE value="add ex1 ex2 ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex1 ex2 ex3" />
   </component>
 </project>
