@@ -1,5 +1,7 @@
 package hu.nero.homeworks.third;
-
+/*
+* ДЗ РАСПОЛОЖЕНЫ В ПАКЕТЕ THIRD И ДАЛЕЕ В ПАКЕТАХ EX1,EX2,EX3,EX5
+* */
 public class Homework3 {
 
 		public static void main(String[] args) {
