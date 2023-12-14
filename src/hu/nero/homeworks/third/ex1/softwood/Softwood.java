@@ -6,7 +6,7 @@ public class Softwood extends Three {
 protected boolean typeOfNeedleIsBig = true;
 
 protected Softwood(int threeAge, boolean typeOfNeedleIsBig) {
-		super(threeAge);
-		this.typeOfNeedleIsBig = typeOfNeedleIsBig;
+	super(threeAge);
+	this.typeOfNeedleIsBig = typeOfNeedleIsBig;
 }
 }

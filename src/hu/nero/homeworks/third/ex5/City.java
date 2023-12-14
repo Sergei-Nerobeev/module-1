@@ -7,13 +7,13 @@ private final String nameOfCity;
 private House[] houses = new House[0];
 
 public City(String nameOfCity, House[] houses) {
-		this.nameOfCity = nameOfCity;
-		this.houses = houses;
+	this.nameOfCity = nameOfCity;
+	this.houses = houses;
 }
 
 @Override
 public String toString() {
-		return nameOfCity + " " + Arrays.toString(houses);
+	return nameOfCity + " " + Arrays.toString(houses);
 
 }
 }
