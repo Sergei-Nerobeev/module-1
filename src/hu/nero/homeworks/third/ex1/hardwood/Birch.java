@@ -8,7 +8,6 @@ public class Birch extends Hardwood{
 				}
 		}
 
-		@Override
 		public int getThreeAge() {
 				return super.getThreeAge();
 		}

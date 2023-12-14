@@ -9,7 +9,6 @@ public final class City {
 		public City(String nameOfCity, House[] houses) {
 				this.nameOfCity = nameOfCity;
 				this.houses = houses;
-
 		}
 
 		@Override

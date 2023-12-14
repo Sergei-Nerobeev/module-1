@@ -8,18 +8,18 @@ public abstract class Component {
 		protected int zoom;
 		protected boolean hasFlash;
 
-		public Component(String model) {
+		protected Component(String model) {
 				this.model = model;
 		}
 
-		public Component(String model, int width, int length, int height) {
+		protected Component(String model, int width, int length, int height) {
 				this.model = model;
 				this.width = width;
 				this.length = length;
 				this.height = height;
 		}
 
-		public Component(String model, int zoom, boolean hasFlash) {
+		protected Component(String model, int zoom, boolean hasFlash) {
 				this.model = model;
 				this.zoom = zoom;
 				this.hasFlash = hasFlash;
