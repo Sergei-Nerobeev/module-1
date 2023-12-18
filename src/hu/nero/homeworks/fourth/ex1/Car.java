@@ -1,68 +1,79 @@
 package hu.nero.homeworks.fourth.ex1;
 
-public abstract class Car {
-	private boolean condition;
-	private int maxPassengerCapasity;
-	private boolean cruiseControl;
-	private double width;
-	private double height;
-	private double lenght;
+public abstract class Car
+{
+  private boolean clearCondition;
+  private int maxPassengerCapacity;
+  private boolean cruiseControl;
+  private double width;
+  private double height;
+  private double length;
 
-	public Car(boolean condition, int maxPassengerCapacity, double width, double height, double length) {
-		this.condition = condition;
-		this.maxPassengerCapasity = maxPassengerCapacity;
-		this.width = width;
-		this.height = height;
-		this.lenght = length;
-	}
+  protected Car(boolean clearCondition, int maxPassengerCapacity, double width, double height, double length)
+  {
+    this.clearCondition = clearCondition;
+    this.maxPassengerCapacity = maxPassengerCapacity;
+    this.width = width;
+    this.height = height;
+    this.length = length;
+  }
 
-	public Car(boolean condition, boolean cruiseControl, double width, double height, double length) {
-		this.condition = condition;
-		this.cruiseControl = cruiseControl;
-		this.width = width;
-		this.height = height;
-		this.lenght = length;
-	}
+  protected Car(boolean clearCondition, boolean cruiseControl, double width, double height, double length)
+  {
+    this.clearCondition = clearCondition;
+    this.cruiseControl = cruiseControl;
+    this.width = width;
+    this.height = height;
+    this.length = length;
+  }
 
-	public Car(double width, double height, double lenght) {
-		this.width = width;
-		this.height = height;
-		this.lenght = lenght;
-	}
+  protected Car(double width, double height, double length)
+  {
+    this.width = width;
+    this.height = height;
+    this.length = length;
+  }
 
-	public boolean isCondition() {
-		return condition;
-	}
+  public boolean isCondition()
+  {
+    return clearCondition;
+  }
 
-	public int getMaxPassengerCapasity() {
-		return maxPassengerCapasity;
-	}
+  public int getMaxPassengerCapacity()
+  {
+    return maxPassengerCapacity;
+  }
 
-	public boolean isCruiseControl() {
-		return cruiseControl;
-	}
+  public boolean isCruiseControl()
+  {
+    return cruiseControl;
+  }
 
-	public double getWidth() {
-		return width;
-	}
+  public double getWidth()
+  {
+    return width;
+  }
 
-	public double getHeight() {
-		return height;
-	}
+  public double getHeight()
+  {
+    return height;
+  }
 
-	public double getLength() {
-		return lenght;
-	}
+  public double getLength()
+  {
+    return length;
+  }
 
-	@Override
-	public String toString() {
-		return "Car{" +
-				"condition=" + condition +
-				", maxPassengerCapasity=" + maxPassengerCapasity +
-				", cruiseControl=" + cruiseControl +
-				", width=" + width +
-				", height=" + height +
-				", length=" + lenght +
-				'}';
-	}
+  @Override
+  public String toString()
+  {
+    return "Car{" +
+        "condition=" + clearCondition +
+        ", maxPassengerCapasity=" + maxPassengerCapacity +
+        ", cruiseControl=" + cruiseControl +
+        ", width=" + width +
+        ", height=" + height +
+        ", length=" + length +
+        '}';
+  }
 }
