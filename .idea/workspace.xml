@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="send it now!">
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/Homeworkfourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Carwash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Passengercar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,27 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hu.nero.homeworks.third.ex2.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hu.nero.homeworks.third.ex3.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hu.nero.homeworks.third.ex5.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/module1/src&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/workspace/module1/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Runner.executor": "Run",
+    "Application.hu.nero.homeworks.fourth.ex1.Runner.executor": "Run",
+    "Application.hu.nero.homeworks.third.ex2.Runner.executor": "Run",
+    "Application.hu.nero.homeworks.third.ex3.Runner.executor": "Run",
+    "Application.hu.nero.homeworks.third.ex5.Runner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/module1/src",
+    "onboarding.tips.debug.path": "D:/workspace/module1/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\module1\src" />
@@ -60,7 +67,7 @@
       <recent name="hu.nero.homeworks.second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hu.nero.homeworks.third.ex5.Runner">
+  <component name="RunManager" selected="Application.hu.nero.homeworks.fourth.ex1.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.third.ex1.Runner" />
       <module name="module1" />
@@ -74,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hu.nero.homeworks.second.shop.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.second.shop.Runner" />
+    <configuration name="hu.nero.homeworks.fourth.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.fourth.ex1.Runner" />
       <module name="module1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.nero.homeworks.second.shop.*" />
+          <option name="PATTERN" value="hu.nero.homeworks.fourth.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.nero.homeworks.fourth.ex1.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.third.ex5.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.third.ex2.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.third.ex3.Runner" />
-        <item itemvalue="Application.hu.nero.homeworks.second.shop.Runner" />
       </list>
     </recent_temporary>
   </component>
