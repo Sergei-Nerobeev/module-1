@@ -2,14 +2,13 @@ package hu.nero.homeworks.fourth.ex1;
 
 public class Carwash
 {
-  private Car car;
   private static final int WASH_COST = 2000;
   private static final String DISPLAY_INFO_FOR_ONE = "Стоимость мойки за один автомобиль: ";
   private static final String DISPLAY_INFO_TOTAL = "Стоимость мойки за автомобили: ";
 
-  public int getWashCar(Car car, boolean condition)
+  public int getWashCar(Car car)
   {
-    if (condition == true && car.getLength() > 6 || car.getHeight() > 2.5 || car.getWidth() > 2)
+    if (car.getLength() > 6 || car.getHeight() > 2.5 || car.getWidth() > 2)
     {
       System.out.println(DISPLAY_INFO_FOR_ONE + getWashCost() * 2);
     }
@@ -35,12 +34,4 @@ public class Carwash
     return WASH_COST;
   }
 
-  @Override
-  public String toString()
-  {
-    return "Car wash{" +
-        "car=" + car +
-        ", washCost=" + WASH_COST +
-        '}';
-  }
 }

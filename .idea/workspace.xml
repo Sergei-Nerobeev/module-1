@@ -4,52 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="send it now!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/CodeStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/CodeStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/first/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/first/Homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/Homeworkfourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/Homeworkfourth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Car.java" afterDir="false" />
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1">
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Carwash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Carwash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Passengercar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Passengercar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Guard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Guard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Office.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Secretary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Secretary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/office/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/second/shop/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/Homework3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/Three.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/Three.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/hardwood/Birch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/hardwood/Birch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/hardwood/Hardwood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/hardwood/Hardwood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Pine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Pine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Softwood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Softwood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Spruce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex1/softwood/Spruce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Os.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Os.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex2/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Pyramid3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex3/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex5/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex5/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex5/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex5/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex5/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/third/ex5/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/lessons/Lesson1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/lessons/Lesson1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/lessons/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/lessons/Lesson2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "Application.hu.nero.homeworks.fourth.ex1.Runner.executor": "Run",
-    "Application.hu.nero.homeworks.third.ex2.Runner.executor": "Run",
-    "Application.hu.nero.homeworks.third.ex3.Runner.executor": "Run",
-    "Application.hu.nero.homeworks.third.ex5.Runner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/module1/src",
-    "onboarding.tips.debug.path": "D:/workspace/module1/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hu.nero.homeworks.fourth.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hu.nero.homeworks.third.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hu.nero.homeworks.third.ex3.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hu.nero.homeworks.third.ex5.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/module1/src&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/workspace/module1/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\module1\src" />
@@ -317,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702584364272</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add ex1">
+      <option name="closed" value="true" />
+      <created>1702936042282</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702936042282</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +298,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="add ex1" />
     <MESSAGE value="add ex2, ex3" />
     <MESSAGE value="add ex2, ex3, ex4" />
     <MESSAGE value="EX4" />
@@ -342,6 +306,7 @@
     <MESSAGE value="correct ex4" />
     <MESSAGE value="correct ex4.1" />
     <MESSAGE value="send it now!" />
-    <option name="LAST_COMMIT_MESSAGE" value="send it now!" />
+    <MESSAGE value="add ex1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex1" />
   </component>
 </project>
