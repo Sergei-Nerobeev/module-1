@@ -34,21 +34,6 @@ public abstract class Car
     this.length = length;
   }
 
-  public boolean isCondition()
-  {
-    return clearCondition;
-  }
-
-  public int getMaxPassengerCapacity()
-  {
-    return maxPassengerCapacity;
-  }
-
-  public boolean isCruiseControl()
-  {
-    return cruiseControl;
-  }
-
   public double getWidth()
   {
     return width;
@@ -64,16 +49,4 @@ public abstract class Car
     return length;
   }
 
-  @Override
-  public String toString()
-  {
-    return "Car{" +
-        "condition=" + clearCondition +
-        ", maxPassengerCapasity=" + maxPassengerCapacity +
-        ", cruiseControl=" + cruiseControl +
-        ", width=" + width +
-        ", height=" + height +
-        ", length=" + length +
-        '}';
-  }
 }

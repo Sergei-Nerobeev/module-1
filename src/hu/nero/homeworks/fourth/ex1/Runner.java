@@ -14,7 +14,6 @@ public class Runner
         new Passengercar(true, true, 1.8, 2, 5),
         new Passengercar(true, true, 1.8, 2, 5),
         new Passengercar(true, true, 1.8, 2, 5),
-        new Passengercar(true, true, 1.8, 2, 5),
         new Bus(2.3, 3, 12),
         new Bus(2.3, 3, 12),
         new Bus(2.3, 3, 12),
