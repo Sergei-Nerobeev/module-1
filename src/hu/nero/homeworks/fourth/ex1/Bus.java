@@ -2,13 +2,11 @@ package hu.nero.homeworks.fourth.ex1;
 
 public class Bus extends Car
 {
-  public Bus(boolean condition, int maxPassengerCapacity, double width, double height, double length)
-  {
-    super(condition, maxPassengerCapacity, width, height, length);
-  }
+  private int maxPassengerCapacity;
 
-  public Bus(double width, double height, double length)
+  protected Bus(boolean isClean, double width, double height, double length, int maxPassengerCapacity)
   {
-    super(width, height, length);
+    super(isClean, width, height, length);
+    this.maxPassengerCapacity = maxPassengerCapacity;
   }
 }

@@ -2,8 +2,11 @@ package hu.nero.homeworks.fourth.ex1;
 
 public class Passengercar extends Car
 {
-  public Passengercar(boolean condition, boolean cruiseControl, double width, double height, double length)
+  private boolean cruiseControl;
+
+  protected Passengercar(boolean isClean, double width, double height, double length, boolean cruiseControl)
   {
-    super(condition, cruiseControl, width, height, length);
+    super(isClean, width, height, length);
+    this.cruiseControl = cruiseControl;
   }
 }

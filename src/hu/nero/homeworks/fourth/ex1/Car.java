@@ -2,36 +2,27 @@ package hu.nero.homeworks.fourth.ex1;
 
 public abstract class Car
 {
-  private boolean clearCondition;
-  private int maxPassengerCapacity;
-  private boolean cruiseControl;
+  private boolean isClean;
   private double width;
   private double height;
   private double length;
 
-  protected Car(boolean clearCondition, int maxPassengerCapacity, double width, double height, double length)
+  protected Car(boolean isClean, double width, double height, double length)
   {
-    this.clearCondition = clearCondition;
-    this.maxPassengerCapacity = maxPassengerCapacity;
+    this.isClean = isClean;
     this.width = width;
     this.height = height;
     this.length = length;
   }
 
-  protected Car(boolean clearCondition, boolean cruiseControl, double width, double height, double length)
+  public boolean isClean()
   {
-    this.clearCondition = clearCondition;
-    this.cruiseControl = cruiseControl;
-    this.width = width;
-    this.height = height;
-    this.length = length;
+    return isClean;
   }
 
-  protected Car(double width, double height, double length)
+  public void setClean(boolean clean)
   {
-    this.width = width;
-    this.height = height;
-    this.length = length;
+    isClean = clean;
   }
 
   public double getWidth()

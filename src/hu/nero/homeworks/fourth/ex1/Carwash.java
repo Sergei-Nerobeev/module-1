@@ -7,6 +7,7 @@ public class Carwash
 
   public int getWashCar(Car car)
   {
+    car.setClean(true);
     if (car.getLength() > 6 || car.getHeight() > 2.5 || car.getWidth() > 2)
     {
       System.out.println(getWashCost() * 2);
@@ -25,7 +26,7 @@ public class Carwash
     {
       washCount++;
     }
-    System.out.println(DISPLAY_INFO + washCount * washCost);
+    System.out.println(DISPLAY_INFO + washCount * WASH_COST);
   }
 
   public int getWashCost()
