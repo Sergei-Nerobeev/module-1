@@ -20,6 +20,7 @@ public abstract class Car
     return isClean;
   }
 
+public abstract int washCost();
   public void setClean(boolean clean)
   {
     isClean = clean;

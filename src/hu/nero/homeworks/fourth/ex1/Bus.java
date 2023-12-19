@@ -9,4 +9,10 @@ public class Bus extends Car
     super(isClean, width, height, length);
     this.maxPassengerCapacity = maxPassengerCapacity;
   }
+
+  @Override
+  public int washCost()
+  {
+    return getLength() > 6 || getHeight() > 2.5 || getWidth() > 2 ? 4000 : 2000;
+  }
 }

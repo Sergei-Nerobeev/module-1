@@ -2,36 +2,20 @@ package hu.nero.homeworks.fourth.ex1;
 
 public class Carwash
 {
-  private static final int WASH_COST = 2000;
-  private static final String DISPLAY_INFO = "Мэрия заплатит на мойку автомобилей: ";
-
-  public int getWashCar(Car car)
+  public int washCar(Car car)
   {
     car.setClean(true);
-    if (car.getLength() > 6 || car.getHeight() > 2.5 || car.getWidth() > 2)
-    {
-      System.out.println(getWashCost() * 2);
-    }
-    else
-    {
-      System.out.println(getWashCost());
-    }
-    return WASH_COST;
+    return car.washCost();
   }
 
-  public void getWashCars(Car[] cars, int washCost)
+  public int washCars(Car[] cars)
   {
-    int washCount = 0;
-    for (int i = 0; i < cars.length; i++)
+    int totalCostForWashing = 0;
+    for (Car c : cars)
     {
-      washCount++;
+      totalCostForWashing += c.washCost();
     }
-    System.out.println(DISPLAY_INFO + washCount * WASH_COST);
-  }
-
-  public int getWashCost()
-  {
-    return WASH_COST;
+    return totalCostForWashing;
   }
 
 }
