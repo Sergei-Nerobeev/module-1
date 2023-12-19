@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1 v.1">
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="add ex1, ex2">
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex3/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex3/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex3/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex3/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex3/Soundable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Carwash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Carwash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Passengercar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Passengercar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex1/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Application.Runner.executor": "Run",
     "Application.hu.nero.homeworks.fourth.ex1.Runner.executor": "Run",
     "Application.hu.nero.homeworks.fourth.ex2.Runner.executor": "Run",
+    "Application.hu.nero.homeworks.fourth.ex3.Runner.executor": "Run",
     "Application.hu.nero.homeworks.third.ex2.Runner.executor": "Run",
     "Application.hu.nero.homeworks.third.ex3.Runner.executor": "Run",
     "Application.hu.nero.homeworks.third.ex5.Runner.executor": "Run",
@@ -68,20 +70,7 @@
       <recent name="hu.nero.homeworks.second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hu.nero.homeworks.fourth.ex1.Runner">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.third.ex1.Runner" />
-      <module name="module1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.nero.homeworks.third.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.hu.nero.homeworks.fourth.ex3.Runner">
     <configuration name="hu.nero.homeworks.fourth.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.fourth.ex1.Runner" />
       <module name="module1" />
@@ -101,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hu.nero.homeworks.fourth.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hu.nero.homeworks.fourth.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nero.homeworks.fourth.ex3.Runner" />
+      <module name="module1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nero.homeworks.fourth.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hu.nero.homeworks.fourth.ex3.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.fourth.ex1.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.fourth.ex2.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.third.ex5.Runner" />
         <item itemvalue="Application.hu.nero.homeworks.third.ex2.Runner" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702984022076</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add ex1, ex2">
+      <option name="closed" value="true" />
+      <created>1702997729447</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702997729447</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,9 +355,9 @@
     <MESSAGE value="correct ex4.1" />
     <MESSAGE value="send it now!" />
     <MESSAGE value="add ex1" />
-    <MESSAGE value="add ex1, ex2" />
     <MESSAGE value="add ex1 v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ex1 v.1" />
+    <MESSAGE value="add ex1, ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex1, ex2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
