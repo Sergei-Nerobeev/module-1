@@ -1,6 +1,6 @@
 package hu.nero.homeworks.fourth.ex3;
 
-public class Driver implements Soundable
+public class Driver extends Human
 {
   public void saySomething()
   {
