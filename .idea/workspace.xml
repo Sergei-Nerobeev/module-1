@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="adding ex1, ex2, ex3">
+    <list default="true" id="baca059c-744b-41a7-8e80-3746a4e7b4ba" name="Changes" comment="adding ex1, ex2, ex3, -ex4">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/826d542d932fc8604f25002d8e0baf092cc69d3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/826d542d932fc8604f25002d8e0baf092cc69d3c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex4/OneGramChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/homeworks/fourth/ex4/OneGramChat.java" afterDir="false" />
     </list>
@@ -277,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703082214216</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="adding ex1, ex2, ex3, -ex4">
+      <option name="closed" value="true" />
+      <created>1703109241485</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703109241485</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +312,7 @@
     <MESSAGE value="correct ex4.1" />
     <MESSAGE value="send it now!" />
     <MESSAGE value="adding ex1, ex2, ex3" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding ex1, ex2, ex3" />
+    <MESSAGE value="adding ex1, ex2, ex3, -ex4" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ex1, ex2, ex3, -ex4" />
   </component>
 </project>

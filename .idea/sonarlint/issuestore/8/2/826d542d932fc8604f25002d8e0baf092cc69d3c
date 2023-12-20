@@ -1,14 +1,23 @@
 
+m
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(é•µùøÿÿÿÿ8ÎşÓÊÈ1
 ^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(Š¾šÁøÿÿÿÿ8üÖÙÉÈ1
-L	java:S106"+Replace this use of System.out by a logger.(úÊ×Ëÿÿÿÿÿ8§×ÙÉÈ1
-G	java:S106"+Replace this use of System.out by a logger.(öÂÅë8ª×ÙÉÈ1
-L	java:S106"+Replace this use of System.out by a logger.(ëÊÿÿÿÿÿ8«×ÙÉÈ1
-L	java:S106"+Replace this use of System.out by a logger.(¥ ¼Ñıÿÿÿÿ8®×ÙÉÈ1
-L	java:S106!"+Replace this use of System.out by a logger.(¨ÕÛŠşÿÿÿÿ8¯×ÙÉÈ1
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Š¾šÁøÿÿÿÿ8ÏşÓÊÈ1
+L	java:S106"+Replace this use of System.out by a logger.(úÊ×Ëÿÿÿÿÿ8òşÓÊÈ1
+m	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ÁŞõŞıÿÿÿÿ8óşÓÊÈ1
+C	java:S131""Add a default case to this switch.(é•µùøÿÿÿÿ8óşÓÊÈ1
+G	java:S106"+Replace this use of System.out by a logger.(öÂÅë8öşÓÊÈ1
+L	java:S106 "+Replace this use of System.out by a logger.(ëÊÿÿÿÿÿ8öşÓÊÈ1
+L	java:S106$"+Replace this use of System.out by a logger.(¥ ¼Ñıÿÿÿÿ8øşÓÊÈ1
+L	java:S106("+Replace this use of System.out by a logger.(¨ÕÛŠşÿÿÿÿ8øşÓÊÈ1
+^
+java:S18541"<Remove this useless assignment to local variable "password".(ù­üÿÿÿÿ8úşÓÊÈ1
 Z
-java:S1854("8Remove this useless assignment to local variable "name".(Ü°ŒŸÿÿÿÿÿ8¯×ÙÉÈ1
-G	java:S106'"+Replace this use of System.out by a logger.(Ó‰¶á8°×ÙÉÈ1
+java:S1854/"8Remove this useless assignment to local variable "name".(Ü°ŒŸÿÿÿÿÿ8úşÓÊÈ1
+G	java:S106."+Replace this use of System.out by a logger.(Ó‰¶á8ûşÓÊÈ1
 K
-java:S1481(")Remove this unused "name" local variable.(Ü°ŒŸÿÿÿÿÿ8±×ÙÉÈ1
-L	java:S106+"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8³×ÙÉÈ1
+java:S1481/")Remove this unused "name" local variable.(Ü°ŒŸÿÿÿÿÿ8ûşÓÊÈ1
+L	java:S1060"+Replace this use of System.out by a logger.(‡øˆˆÿÿÿÿÿ8üşÓÊÈ1
+O
+java:S14811"-Remove this unused "password" local variable.(ù­üÿÿÿÿ8üşÓÊÈ1
+L	java:S1064"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8ışÓÊÈ1
