@@ -2,14 +2,14 @@ package hu.nero.homeworks.fourth.ex4;
 
 public class User
 {
-  private String name;
-  private String password;
-  private Message message;
+  String name;
+  String password;
+  private String[] text;
 
-  public User(String name, String password, Message message)
+  public User(String name, String[] text)
   {
     this.name = name;
     this.password = password;
-    this.message = message;
+    this.text = new String[100];
   }
 }
