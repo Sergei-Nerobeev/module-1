@@ -1,0 +1,14 @@
+
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Š¾šÁøÿÿÿÿ8üÖÙÉÈ1
+L	java:S106"+Replace this use of System.out by a logger.(úÊ×Ëÿÿÿÿÿ8§×ÙÉÈ1
+G	java:S106"+Replace this use of System.out by a logger.(öÂÅë8ª×ÙÉÈ1
+L	java:S106"+Replace this use of System.out by a logger.(ëÊÿÿÿÿÿ8«×ÙÉÈ1
+L	java:S106"+Replace this use of System.out by a logger.(¥ ¼Ñıÿÿÿÿ8®×ÙÉÈ1
+L	java:S106!"+Replace this use of System.out by a logger.(¨ÕÛŠşÿÿÿÿ8¯×ÙÉÈ1
+Z
+java:S1854("8Remove this useless assignment to local variable "name".(Ü°ŒŸÿÿÿÿÿ8¯×ÙÉÈ1
+G	java:S106'"+Replace this use of System.out by a logger.(Ó‰¶á8°×ÙÉÈ1
+K
+java:S1481(")Remove this unused "name" local variable.(Ü°ŒŸÿÿÿÿÿ8±×ÙÉÈ1
+L	java:S106+"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8³×ÙÉÈ1

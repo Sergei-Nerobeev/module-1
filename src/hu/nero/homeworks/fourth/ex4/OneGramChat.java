@@ -8,8 +8,14 @@ public class OneGramChat
 
   public void startChat()
   {
-
-    System.out.println("Введите пожалуйста команду из списка: войти, новый, выйти, написать, прочитать, exit");
+    Scanner scanner = new Scanner(System.in);
+    String command;
+    do
+    {
+      System.out.println("Введите пожалуйста команду из списка: войти, новый, выйти, написать, прочитать, exit");
+      command = scanner.nextLine();
+    }
+    while (command == "exit");
   }
 
   public void login(Scanner scanner)
@@ -31,6 +37,10 @@ public class OneGramChat
   public void createUser(Scanner scanner)
   {
     System.out.println("Введите имя нового пользователя: ");
-    String name = scanner
+    String name = scanner.nextLine();
+    if (currentUser == null)
+    {
+      System.out.println("");
+    }
   }
 }
